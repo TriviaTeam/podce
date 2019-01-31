@@ -1,0 +1,63 @@
+# Banco de dados #
+info:
+  name: podce-adm
+
+url.db: @url.db@
+user.db: @user.db@
+password.db: @password.db@
+min.pool.db: @min.pool.db@
+max.pool.db: @max.pool.db@
+timeout.db: @timeout.db@
+
+dialect.db: org.hibernate.dialect.PostgreSQL9Dialect
+data.source.db: org.postgresql.ds.PGSimpleDataSource
+hbm2dll: none
+
+# Email #
+mail.usuario: @mail.username@
+
+spring:
+  profiles:
+    active: dev
+  security:
+    user:
+      name: eureka
+      password: admin
+      roles: SYSTEM
+  servlet:
+    multipart:
+      enabled:true
+      file-size-threshold:2KB
+      max-file-size:7MB
+      max-request-size:10MB
+
+server:
+  port: @podce-adm-port@
+  servlet:
+    context-path: /podce-adm
+
+service:
+  defaultMinMs: 100
+  defaultMaxMs: 200
+
+logging:
+  file: @log.path@${info.name}.log
+  level:
+    org:
+      springframework: INFO
+      hibernate:
+        SQL: DEBUG
+        type.descriptor.sql.BasicBinder: TRACE
+
+---
+spring:
+  profiles: zuul
+
+server:
+  port: 0
+  servlet:
+      context-path: /
+ 
+ 
+ 
+ 
