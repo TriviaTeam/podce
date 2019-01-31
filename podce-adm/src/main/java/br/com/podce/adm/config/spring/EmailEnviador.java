@@ -15,10 +15,11 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.List;
 
+//Classe com error
 @Component
 public class EmailEnviador {
 
-	private static final String CHARSET = "ISO-8859-1";
+	/*private static final String CHARSET = "ISO-8859-1";
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(EmailEnviador.class);
 
@@ -75,5 +76,5 @@ public class EmailEnviador {
 			throw new PodceException("Erro email enviador");
 		}
 	}
-
+*/
 }

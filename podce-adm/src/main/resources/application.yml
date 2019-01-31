@@ -13,9 +13,6 @@ dialect.db: org.hibernate.dialect.PostgreSQL9Dialect
 data.source.db: org.postgresql.ds.PGSimpleDataSource
 hbm2dll: none
 
-# Email #
-mail.usuario: @mail.username@
-
 spring:
   profiles:
     active: dev
@@ -39,25 +36,3 @@ server:
 service:
   defaultMinMs: 100
   defaultMaxMs: 200
-
-logging:
-  file: @log.path@${info.name}.log
-  level:
-    org:
-      springframework: INFO
-      hibernate:
-        SQL: DEBUG
-        type.descriptor.sql.BasicBinder: TRACE
-
----
-spring:
-  profiles: zuul
-
-server:
-  port: 0
-  servlet:
-      context-path: /
- 
- 
- 
- 

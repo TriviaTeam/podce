@@ -1,5 +1,6 @@
 package br.com.podce.jpa.model;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -8,16 +9,16 @@ import java.util.Objects;
  * @author Victor Alexsander
  *
  */
-//@Entity
-//@Table(name = "nome_tabela")
+@Entity
+@Table(name = "usuario")
 public class Usuario implements Serializable {
 
 	private static final long serialVersionUID = -4104168036322050909L;
 
-	//@Id
-	//@Column(name = "id")
-	//@GeneratedValue(generator = "sq_id", strategy = GenerationType.SEQUENCE)
-	//@SequenceGenerator(name = "sq_id", sequenceName = "sq_id", allocationSize = 1)
+	@Id
+	@Column(name = "id")
+	@GeneratedValue(generator = "sq_id", strategy = GenerationType.SEQUENCE)
+	@SequenceGenerator(name = "sq_id", sequenceName = "sq_id", allocationSize = 1)
 	private Integer id;
 
 	public Usuario() {}
