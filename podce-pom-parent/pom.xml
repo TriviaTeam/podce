@@ -14,6 +14,7 @@
         <module>../podce-jpa</module>
         <module>../podce-lib</module>
         <module>../podce-adm</module>
+        <module>../discovery</module>
     </modules>
 
     <parent>

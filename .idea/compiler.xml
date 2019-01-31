@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="adm" />
+        <module name="discovery" />
+        <module name="discovery-server" />
         <module name="podce-db-migration" />
         <module name="podce-jpa" />
         <module name="podce-lib" />
@@ -14,6 +16,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="adm" target="1.8" />
+      <module name="discovery" target="1.5" />
+      <module name="discovery-server" target="1.5" />
       <module name="podce" target="1.5" />
       <module name="podce-db-migration" target="1.5" />
       <module name="podce-jpa" target="1.8" />
@@ -24,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="adm" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
       <module name="podce-jpa" options="-parameters" />
       <module name="podce-lib" options="-parameters" />
     </option>
