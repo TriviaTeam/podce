@@ -1,0 +1,154 @@
+
+[ui-tree] {
+    /* --- Tree --- */
+  }
+  [ui-tree] .angular-ui-tree-handle {
+    background: #f8faff;
+    border: 1px solid #dae2ea;
+    color: #7c9eb2;
+    padding: 10px 10px;
+    cursor: default;
+    line-height: 28px;
+  }
+  [ui-tree] .angular-ui-tree-handle:hover {
+    color: #438eb9;
+    background: #f4f6f7;
+    border-color: #dce2e8;
+    cursor: default;
+  }
+  [ui-tree] .angular-ui-tree-placeholder {
+    background: #f0f9ff;
+    border: 2px dashed #bed2db;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  [ui-tree] .angular-ui-tree-empty {
+    background: transparent !important;
+    border: none;
+  }
+  [ui-tree] tr.angular-ui-tree-empty {
+    height: 100px;
+  }
+  [ui-tree] .group-title {
+    background-color: #687074 !important;
+    color: #fff !important;
+  }
+  [ui-tree] .tree-node {
+    border: 1px solid #dae2ea;
+    background: #f8faff;
+    color: #7c9eb2;
+  }
+  [ui-tree] .nodrop {
+    background-color: #f2dede;
+  }
+  [ui-tree] .tree-node-content {
+    margin: 10px;
+  }
+  [ui-tree] .tree-handle {
+    padding: 10px;
+    background: #428bca;
+    color: #fff;
+    margin-right: 10px;
+  }
+  [ui-tree] .angular-ui-tree-placeholder {
+    background: #f0f9ff;
+    border: 2px dashed #bed2db;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  [ui-tree] ul, [ui-tree] ol {
+    margin-top: 0;
+    margin-bottom: 10.5px;
+    list-style: none !important;
+  }
+
+tr.inativo td {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+
+.btn-sm {
+   	border-radius: 6px;
+    font-size: 9px;
+    border-color: transparent;
+    -webkit-appearance: button;
+    outline: none !important;
+    font-style: initial;
+    font-family: sans-serif;
+    padding-bottom: unset;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3;
+    margin: 0;
+    float: right!important
+}
+
+.float-left-0px {
+	float: left;
+    padding-left: 0px;
+}
+
+.float-right-0px {
+	padding-top: 0px;
+    padding-right: 0px;
+    float: right;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-unset{
+	float: unset;
+}
+
+.text-align{
+	text-align: right;
+}
+
+.border-button-3px{
+	padding: 10px 15px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.btn-black{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.fundo-tabela{
+    background-color: #e1e1e1;
+}
+
+.fundo-sub-panel{
+    width: 50%;
+    float: left;
+}
+
+.fundo-sub-panel > h3{
+    font-size: 15px;
+    padding: 5px;
+    background-color: #f5f5f5;
+}
+
+.btm-sm-entregaveis{
+    border-radius: 4px !important;
+    font-size: 10px !important;
+    padding: 7px !important;
+}
+
+.border-teste{
+    border: solid 1px #ddd
+}
+
+.borda-tabela-itc {
+    padding: 5px;
+    border-bottom: solid 1px #eee;
+}
+
+/* Toggle Switch */
+@import '../../../../node_modules/angular-toggle-switch/angular-toggle-switch.css';
+@import '../../../../node_modules/angular-toggle-switch/angular-toggle-switch-bootstrap.css';

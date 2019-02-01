@@ -1,0 +1,184 @@
+[
+  {
+    "modulo": "ADMINISTRACAO",
+    "menu": [
+      {
+        "text": "Gerenciar acesso",
+        "sref": "solicitacao.pesquisar",
+        "icon": "fa fa-users",
+        "translate": "Gerenciar Acesso",
+        "authority": "SOLICITACAO_ACESSO"
+      },
+      {
+        "text": "Usuário",
+        "icon": "fa fa-user",
+        "translate": "Usuário",
+        "submenu": [
+          {
+            "text": "Usuário",
+            "sref": "usuario.pesquisar",
+            "translate": "Usuário",
+            "authority": "USUARIO"
+          },
+          {
+            "text": "Função",
+            "sref": "funcao.pesquisar",
+            "translate": "Função",
+            "authority": "FUNCAO"
+          },
+          {
+            "text": "Perfil",
+            "sref": "perfil.pesquisar",
+            "translate": "Perfil",
+            "authority": "PERFIL"
+          },
+          {
+            "text": "Unidade",
+            "sref": "unidade.pesquisar",
+            "translate": "Unidade",
+            "authority": "UNIDADE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo": "GESTAO",
+    "menu": [
+      {
+        "text": "Ordem de Serviço",
+        "sref": "ordemServico.pesquisar",
+        "icon": "fa icon-note",
+        "translate": "Ordem de Serviço",
+        "authority": "ORDEM_SERVICO"
+      },
+      {
+        "text": "Projeto",
+        "translate": "Projeto",
+        "icon": "fa icon-note",
+        "sref": "projeto.pesquisar",
+        "authority": "PROJETO"
+      },
+      {
+        "text": "Contrato",
+        "translate": "Contrato",
+        "icon": "fa icon-note",
+        "submenu": [
+          {
+            "text": "Contrato",
+            "sref": "contrato.pesquisar",
+            "translate": "Contrato",
+            "authority": "LIST_CONTRATO"
+          },
+          {
+            "text": "Tipo de Métrica",
+            "sref": "tipoMetrica.pesquisar",
+            "translate": "Tipo de Métrica",
+            "authority": "TIPO_METRICA"
+          },
+          {
+            "text": "Produto/Serviço",
+            "sref": "servico.pesquisar",
+            "translate": "Produto/Serviço",
+            "authority": "SERVICOS"
+          },
+          {
+            "text": "Item Contrato",
+            "sref": "itemContrato.pesquisar",
+            "translate": "Item Contrato",
+            "authority": "ITEM_CONTRATO"
+          }
+        ,
+          {
+            "text": "Entregável",
+            "sref": "entregavel.pesquisar",
+            "translate": "Entregável",
+            "authority": "ENTREGAVEL"
+          },
+          {
+            "text": "Sanção Aplicável",
+            "sref": "sancaoAplicavel.pesquisar",
+            "translate": "Sanção Aplicável",
+            "authority": "SANCAO_APLICAVEL"
+          },
+          {
+            "text": "Natureza Aditamento",
+            "translate": "Natureza do Aditamento",
+            "sref": "natureza.pesquisar",
+            "authority": "ITEM_AVALIACAO"
+          },
+          {
+            "text": "Nível Mínimo de Serviço",
+            "sref": "nivelMinimoServico.pesquisar",
+            "translate": "Nível Mínimo de Serviço",
+            "authority": "NIVEL_MINIMO"
+          },
+          {
+            "text": "Item de Avaliação",
+            "sref": "itemAvaliacao.pesquisar",
+            "translate": "Item de Avaliação",
+            "authority": "ITEM_AVALIACAO"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "modulo": "PLANEJAMENTO",
+    "menu": [
+      {
+        "text": "Instrumento de Planejamento",
+        "icon": "icon-globe",
+        "translate": "Instr. de Planejamento",
+        "submenu": [
+            {
+              "text": "Instrumento de Planejamento",
+              "sref": "instrumentoPlanejamento.pesquisar",
+              "translate": "Instr. de Planejamento",
+              "authority": "INSTRUMENTO_PLANEJAMENTO_ESTRATEGICO"
+            },
+       		{
+		        "text": "Objetivo Estratégico",
+		        "sref": "objetivoEstrategico.pesquisar",
+		        "translate": "Objetivo Estratégico",
+		        "authority": "OBJETIVOS_ESTRATEGICOS"
+		      },
+		      {
+		        "text": "Meta",
+		        "sref": "meta.pesquisar",
+		        "translate": "Meta",
+		        "authority": "METAS_INSTRUMENTOS_PLANEJAMENTO"
+		      },
+		      {
+		        "text": "Necessidade",
+		        "sref": "necessidade.pesquisar",
+		        "translate": "Necessidade",
+		        "authority": "NECESSIDADES_INSTRUMENTOS_PLANEJAMENTO"
+		      },
+		      {
+		        "text": "Ação",
+		        "sref": "acao.pesquisar",
+		        "translate": "Ação",
+		        "authority": "ACOES_INSTRUMENTOS_PLANEJAMENTO"
+		      } 	
+        ]
+      },
+      {
+        "text": "Template",
+        "sref": "template.pesquisar",
+        "icon": "icon-eye",
+        "translate": "Template",
+        "authority": "TEMPLATE"
+      },
+      {
+        "text": "Planejamento da Contratação",
+        "icon": "fa icon-note",
+        "sref": "planejamentoContratacao.pesquisar",
+        "translate": "Plan. da Contratação",
+        "authority": "PLANEJAMENTO_CONTRATACAO"
+      }
+    ]
+  }
+
+]
