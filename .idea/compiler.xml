@@ -10,14 +10,13 @@
         <module name="discovery" />
         <module name="discovery-server" />
         <module name="podce-db-migration" />
-        <module name="podce-jpa" />
         <module name="podce-lib" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="adm" target="1.8" />
       <module name="discovery" target="1.5" />
-      <module name="discovery-server" target="1.5" />
+      <module name="discovery-server" target="1.8" />
       <module name="podce" target="1.5" />
       <module name="podce-db-migration" target="1.5" />
       <module name="podce-jpa" target="1.8" />

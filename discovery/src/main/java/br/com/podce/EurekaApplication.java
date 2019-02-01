@@ -1,4 +1,4 @@
-package br.gov.mi.gemeos;
+package br.com.podce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 /**
- * @author vinicius souza
+ * @author Victor Alexsander
  */
 @SpringBootApplication
 @EnableEurekaServer

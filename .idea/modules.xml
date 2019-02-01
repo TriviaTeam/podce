@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/discovery/discovery-server.iml" filepath="$PROJECT_DIR$/discovery/discovery-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/podce.iml" filepath="$PROJECT_DIR$/podce.iml" />
       <module fileurl="file://$PROJECT_DIR$/podce-db-migration/podce-db-migration.iml" filepath="$PROJECT_DIR$/podce-db-migration/podce-db-migration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/podce-jpa/podce-jpa.iml" filepath="$PROJECT_DIR$/podce-jpa/podce-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/podce-lib/podce-lib.iml" filepath="$PROJECT_DIR$/podce-lib/podce-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/podce-pom-parent/podce-pom-parent.iml" filepath="$PROJECT_DIR$/podce-pom-parent/podce-pom-parent.iml" />
     </modules>

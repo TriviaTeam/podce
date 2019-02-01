@@ -1,4 +1,4 @@
-package br.com.podce.jpa.model;
+package br.com.podce.adm.jpa.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

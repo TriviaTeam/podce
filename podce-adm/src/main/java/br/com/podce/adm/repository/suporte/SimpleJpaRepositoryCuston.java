@@ -21,9 +21,6 @@ public class SimpleJpaRepositoryCuston<T, ID> extends SimpleJpaRepository<T, ID>
 		super(domainClass, em);
 	}
 
-	/* (non-Javadoc)
-	 * @see br.gov.mi.gemeos.gestao.repository.suporte.A#findOne(org.springframework.data.domain.Example)
-	 */
 	@Override
 	public <S extends T> Optional<S> findOne(Example<S> example) {
 
@@ -35,42 +32,27 @@ public class SimpleJpaRepositoryCuston<T, ID> extends SimpleJpaRepository<T, ID>
 		}
 	}
 
-	/* (non-Javadoc)
-	 * @see br.gov.mi.gemeos.gestao.repository.suporte.A#count(org.springframework.data.domain.Example)
-	 */
 	@Override
 	public <S extends T> long count(Example<S> example) {
 		return executeCountQuery(getCountQuery(new ExampleSpecification<S>(example), example.getProbeType()));
 	}
 
-	/* (non-Javadoc)
-	 * @see br.gov.mi.gemeos.gestao.repository.suporte.A#exists(org.springframework.data.domain.Example)
-	 */
 	@Override
 	public <S extends T> boolean exists(Example<S> example) {
 		return !getQuery(new ExampleSpecification<S>(example), example.getProbeType(), Sort.unsorted()).getResultList()
 				.isEmpty();
 	}
 
-	/* (non-Javadoc)
-	 * @see br.gov.mi.gemeos.gestao.repository.suporte.A#findAll(org.springframework.data.domain.Example)
-	 */
 	@Override
 	public <S extends T> List<S> findAll(Example<S> example) {
 		return getQuery(new ExampleSpecification<S>(example), example.getProbeType(), Sort.unsorted()).getResultList();
 	}
 
-	/* (non-Javadoc)
-	 * @see br.gov.mi.gemeos.gestao.repository.suporte.A#findAll(org.springframework.data.domain.Example, org.springframework.data.domain.Sort)
-	 */
 	@Override
 	public <S extends T> List<S> findAll(Example<S> example, Sort sort) {
 		return getQuery(new ExampleSpecification<S>(example), example.getProbeType(), sort).getResultList();
 	}
 
-	/* (non-Javadoc)
-	 * @see br.gov.mi.gemeos.gestao.repository.suporte.A#findAll(org.springframework.data.domain.Example, org.springframework.data.domain.Pageable)
-	 */
 	@Override
 	public <S extends T> Page<S> findAll(Example<S> example, Pageable pageable) {
 

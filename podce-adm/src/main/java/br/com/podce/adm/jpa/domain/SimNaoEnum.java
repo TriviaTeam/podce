@@ -1,4 +1,4 @@
-package br.com.podce.jpa.domain;
+package br.com.podce.adm.jpa.domain;
 
 /**
  * 

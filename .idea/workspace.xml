@@ -2,12 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f69f207-1630-4cd6-9a6e-fa1b72cbe4cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__br_com_podce_podce_jpa_0_0_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/podce-adm/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/discovery-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/discovery-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/src/main/java/br/com/podce/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/java/br/com/podce/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/target/classes/br/gov/mi/gemeos/EurekaApplication$WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/target/classes/br/gov/mi/gemeos/EurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/target/classes/config-repo/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/adm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/adm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/suporte/SimpleJpaRepositoryCuston.java" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/suporte/SimpleJpaRepositoryCuston.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/AdmApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/config/spring/EmailEnviador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/config/spring/PersistenceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/config/spring/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/controller/UsuarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/dto/UsuarioDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/UsuarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/UsuarioRepositoryCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/UsuarioRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/suporte/QueryByExamplePredicateBuilderCustom$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/suporte/QueryByExamplePredicateBuilderCustom$PathNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/suporte/QueryByExamplePredicateBuilderCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/suporte/RepositoryCustomAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/suporte/RepositoryCuston.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/suporte/SimpleJpaRepositoryCuston$ExampleSpecification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/suporte/SimpleJpaRepositoryCuston.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/repository/suporte/Translate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/target/classes/br/com/podce/adm/spring/CorsFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-jpa/podce-jpa.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-jpa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-jpa/src/main/java/br/com/podce/jpa/domain/SimNaoEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-jpa/src/main/java/br/com/podce/jpa/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-jpa/target/classes/br/com/podce/jpa/domain/SimNaoEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-jpa/target/classes/br/com/podce/jpa/model/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-lib/podce-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-lib/podce-lib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-lib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-lib/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/podce-pom-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-pom-parent/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/podce-jpa/target/" />
@@ -71,60 +120,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/PersistenceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/podce-jpa/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/podce-jpa/src/main/java/br/com/podce/jpa/model/Usuario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discovery/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/podce-adm/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/AdmApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding>
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -136,8 +131,76 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/podce-pom-parent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="263">
+              <caret line="42" column="91" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/discovery/src/main/resources/config-repo/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/discovery/src/main/java/br/com/podce/EurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/suporte/SimpleJpaRepositoryCuston.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/podce-adm/adm.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/domain/SimNaoEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/podce-adm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/podce-lib/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/model/Usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -150,6 +213,9 @@
       <find>podce</find>
       <find>ComponentScan</find>
       <find>EnableJpaRepositories</find>
+      <find>org.springframework.security</find>
+      <find>oauth</find>
+      <find>gemeos</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,8 +230,16 @@
         <option value="$PROJECT_DIR$/discovery/src/main/resources/config-repo/application.properties" />
         <option value="$PROJECT_DIR$/discovery/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/podce-pom-parent/pom.xml" />
         <option value="$PROJECT_DIR$/podce-adm/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/discovery/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/domain/SimNaoEnum.java" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/model/Usuario.java" />
+        <option value="$PROJECT_DIR$/podce-adm/pom.xml" />
+        <option value="$PROJECT_DIR$/podce-lib/pom.xml" />
+        <option value="$PROJECT_DIR$/podce-pom-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/discovery/src/main/java/br/com/podce/EurekaApplication.java" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/suporte/SimpleJpaRepositoryCuston.java" />
       </list>
     </option>
   </component>
@@ -181,10 +255,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="1366" />
-    <option name="height" value="743" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="36" />
+    <option name="width" value="1350" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,15 +315,6 @@
               <item name="discovery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,115 +329,9 @@
             <path>
               <item name="podce" type="b2602c69:ProjectViewProjectNode" />
               <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-adm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-adm" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-adm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-adm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-adm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-adm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="adm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-adm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="podce-pom-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -389,7 +349,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gemeos/GEMEOS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -433,25 +393,27 @@
       <option name="presentableId" value="Default" />
       <updated>1548914767934</updated>
       <workItem from="1548914772194" duration="1213000" />
+      <workItem from="1548955783679" duration="268000" />
+      <workItem from="1548985889101" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2259000" />
+    <option name="totallyTimeSpent" value="3215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <frame x="-1" y="36" width="1350" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1978852" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20520674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3964968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35828024" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.6450567" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36305732" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +430,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.32930514" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.3315467" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -478,9 +440,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/podce-adm/adm.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/38087986-ab1d-4ddb-a9f5-3cad0056e87c/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -518,56 +477,9 @@
     <entry file="file://$PROJECT_DIR$/discovery/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/src/test/java/br/gov/mi/gemeos/ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <folding>
-            <element signature="e#0#1616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/src/test/java/br/gov/mi/gemeos/ApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/discovery/src/main/java/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/podce-pom-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/AdmApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/src/main/resources/config-repo/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/discovery/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,8 +497,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/podce-adm/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="466">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/AdmApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/adm.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/model/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/domain/SimNaoEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-lib/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-pom-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="42" column="91" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/src/main/resources/config-repo/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/src/main/java/br/com/podce/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/suporte/SimpleJpaRepositoryCuston.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
