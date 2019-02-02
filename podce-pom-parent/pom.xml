@@ -39,6 +39,7 @@
 
                 <podce-adm-port>8083</podce-adm-port>
                 <url.app>http://localhost:3000/#/login/reset</url.app>
+                <log.path></log.path>
 
                 <!--<oauth.url>http://localhost</oauth.url> Para quando implementar o oauth
                 <oauth.port>9999</oauth.port>-->

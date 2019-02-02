@@ -11,7 +11,7 @@ import java.util.Objects;
  */
 @Entity
 @Table(name = "usuario")
-public class Usuario implements Serializable {
+public class Usuario implements Serializable{
 
 	private static final long serialVersionUID = -4104168036322050909L;
 
@@ -20,12 +20,6 @@ public class Usuario implements Serializable {
 	@GeneratedValue(generator = "sq_id", strategy = GenerationType.SEQUENCE)
 	@SequenceGenerator(name = "sq_id", sequenceName = "sq_id", allocationSize = 1)
 	private Integer id;
-
-	public Usuario() {}
-
-	public Usuario(Integer id) {
-		this.id = id;
-	}
 
 	public Integer getId() {
 		return id;

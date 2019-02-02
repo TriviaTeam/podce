@@ -47,3 +47,11 @@ eureka:
     fetchRegistry: true
     serviceUrl:
     defaultZone: http://localhost:8761/
+logging:
+  file: @log.path@${info.name}.log
+  level:
+    org:
+      springframework: INFO
+      hibernate:
+        SQL: DEBUG
+        type.descriptor.sql.BasicBinder: TRACE
