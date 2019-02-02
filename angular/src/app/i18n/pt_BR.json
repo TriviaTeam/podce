@@ -1,0 +1,46 @@
+{
+  "dashboard": {
+    "WELCOME": "Bem vindo"
+  },
+  "topbar": {
+  },
+  "login": {
+    "SIGN_IN_LABEL": "FAÇA LOGIN PARA CONTINUAR.",
+    "REMEMBER_ME": "Manter conectado",
+    "FORGOT": "Esqueceu a senha?",
+    "LOGIN": "Entrar"
+  },
+  "sidebar": {
+    "WELCOME": "Bem vindo",
+    "heading": {
+      "HEADER": "Menu principal"
+    },
+    "nav": {
+      "HOME": "Home",
+      "edital": {
+        "EDITAL": "Editais",
+        "LISTAR": "Listar Editais",
+        "NOVO": "Novo Edital"
+      },
+      "anexo": {
+        "ANEXO": "Anexo",
+        "LISTAR": "Listar Anexos"
+      },
+      "contrato": {
+        "CONTRATO": "Contratos",
+        "LISTAR": "Listar contrato"
+      },
+      "ata": {
+        "ATA": "Atas",
+        "LISTAR": "Listar Atas"
+      }
+    }
+  },
+  "form": {
+    "input": {
+      "REQUIRED": "Campo obrigatório",
+      "EMAIL": "Iforme um e-mail válido",
+      "MINLENGTH": "Este campo deve ter pelo menos {{length}} caracteres"
+    }
+  }
+}

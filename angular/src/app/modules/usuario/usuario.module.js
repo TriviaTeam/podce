@@ -3,14 +3,14 @@
 import Module from '../../../core/Module';
 import bootstrap from './usuario.bootstrap'
 import UsuarioService from '../../services/usuarios.service'
-import UsuarioVisualizarController from './controllers/UsuarioVisualizarController'
+import UsuarioController from './controllers/UsuarioController'
 
 let module = new Module('usuario', [
     'UsuarioService',
 ]);
 
 module.setControllers(
-    ['usuario.UsuarioVisualizarController',UsuarioVisualizarController]
+    ['usuario.Controller',UsuarioController]
 );
 
 module.bootstrap(bootstrap);

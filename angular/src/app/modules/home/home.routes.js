@@ -2,14 +2,13 @@
 
 import Router from '../../../core/Router';
 import Template from '../../assets/layout/app.html';
-import usuarioVisualizarView from './views/usuario.html'
-
+import Home from './views/dashboard.html'
 
 let loadModule = function(){
     let resolve = function ($q, $ocLazyLoad) {
         return $q(function (resolve) {
             require.ensure([], () => {
-                let module = require('./usuario.module').default;
+                let module = require('./home.module').default;
                 $ocLazyLoad.load({name: module.name});
                 resolve(module.name);
             });
@@ -20,19 +19,22 @@ let loadModule = function(){
     return resolve;
 };
 
+/*Default Routes*/
 
-let defaultRoute = new Router('usuario', {
-    url: '/usuario',
+let homeRoute = new Router('main', {
+    url: '',
     templateUrl: Template,
     abstract: true,
     resolve: {defaultModule: loadModule()}
 });
 
-defaultRoute.addRoute('visualizar', {
-    url: '/visualizar',
-    templateUrl: usuarioVisualizarView,
-    controller: 'usuario.UsuarioController as vm',
+homeRoute.addRoute('home', {
+    url: '/home',
+    templateUrl: Home,
+    controller: 'home.HomeController as vm',
 });
 
-export default angular.module('usuario.routes', []).config(defaultRoute.route());
+export default angular
+    .module('home.routes', [])
+    .config(homeRoute.route());
 

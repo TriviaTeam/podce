@@ -3,10 +3,10 @@
         <ul class="nav">
             <li class="nav-heading divider-bottom">
                 <div style="white-space: normal;">
-                    <p>Bem vindo, <strong>{{username}}</strong></p>
+                    <p>Sidebar</p>
                 </div>
             </li>
-            <li ng-if="hasChild(item.submenu)" ng-class="getMenuItemPropClasses(item)" ng-repeat="item in menuItems" ng-init="pIndex = $index" ng-include="'sidebar-renderer.html'" ng-click="toggleCollapse(pIndex, true)"></li>
+           <!-- <li ng-if="hasChild(item.submenu)" ng-class="getMenuItemPropClasses(item)" ng-repeat="item in menuItems" ng-init="pIndex = $index" ng-include="'sidebar-renderer.html'" ng-click="toggleCollapse(pIndex, true)"></li>-->
         </ul>
     </nav>
 </div>

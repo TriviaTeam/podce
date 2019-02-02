@@ -13,15 +13,6 @@ function ngIdleRun($rootScope, $uibModal, OAuth, Idle, Keepalive){
 
     $rootScope.maxIdle = process.env.IDLE_TIMEOUT;
 
-    $rootScope.$on('Keepalive', function () {
-        OAuth.getRefreshToken(null, {
-            headers: {
-                "Authorization": "Basic " + btoa("gemeos:gemeosoauth"),
-                "Content-Type": "application/x-www-form-urlencoded"
-            }
-        });
-    });
-
     function closeModals() {
         if ($rootScope.warning) {
             $rootScope.warning.close();
