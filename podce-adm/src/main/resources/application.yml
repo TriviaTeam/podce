@@ -1,17 +1,5 @@
-# Banco de dados #
 info:
   name: podce-adm
-
-url.db: @url.db@
-user.db: @user.db@
-password.db: @password.db@
-min.pool.db: @min.pool.db@
-max.pool.db: @max.pool.db@
-timeout.db: @timeout.db@
-
-dialect.db: org.hibernate.dialect.PostgreSQL9Dialect
-data.source.db: org.postgresql.ds.PGSimpleDataSource
-hbm2dll: none
 
 spring:
   profiles:
@@ -21,6 +9,39 @@ spring:
       name: eureka
       password: admin
       roles: SYSTEM
+  mail:
+    debug: true
+    host: @mail.host@
+    port: @mail.port@
+    username: @mail.username@
+    password: @mail.password@
+    properties:
+      mail:
+        transport:
+          protocol: @mail.protocol@
+        smtps:
+          auth: true
+        smtp:
+          starttls:
+            enable: true
+          ssl:
+            enable: false
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+        ddl-auto: @dll.auto@
+  datasource:
+    url: @url.db@
+    username: @user.db@
+    password: @password.db@
+    max-pool-size: @max.pool.db@
+    min-pool-size: @min.pool.db@
+    driver-class-name: org.postgresql.Driver
   servlet:
     multipart:
       enabled:true

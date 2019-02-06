@@ -9,8 +9,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>../podce-pom-parent</module>
-        <module>../podce-db-migration</module>
         <module>../podce-lib</module>
         <module>../podce-adm</module>
         <module>../discovery</module>
@@ -36,10 +34,16 @@
                 <timeout.db>10000</timeout.db>
                 <max.pool.db>30</max.pool.db>
                 <min.pool.db>5</min.pool.db>
-
                 <podce-adm-port>8083</podce-adm-port>
                 <url.app>http://localhost:3000/#/login/reset</url.app>
                 <log.path></log.path>
+                <dll.auto>update</dll.auto>
+
+                <mail.host>smtp.gmail.com</mail.host>
+                <mail.port>587</mail.port>
+                <mail.username>teste@gmail.com</mail.username>
+                <mail.password>'teste'</mail.password>
+                <mail.protocol>smtp</mail.protocol>
 
                 <!--<oauth.url>http://localhost</oauth.url> Para quando implementar o oauth
                 <oauth.port>9999</oauth.port>-->

@@ -11,6 +11,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/podce-db-migration/pom.xml" />
         <option value="$PROJECT_DIR$/podce-jpa/pom.xml" />
       </set>
     </option>

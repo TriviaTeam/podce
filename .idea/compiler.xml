@@ -9,7 +9,6 @@
         <module name="adm" />
         <module name="discovery" />
         <module name="discovery-server" />
-        <module name="podce-db-migration" />
         <module name="podce-lib" />
       </profile>
     </annotationProcessing>

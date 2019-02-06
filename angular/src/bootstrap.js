@@ -10,7 +10,6 @@ function Bootstrap($rootScope, $location, DTOptionsBuilder) {
     $rootScope.datatable = {};
     $rootScope.datatable.options = DTOptionsBuilder
         .newOptions()
-        .withLanguage(require('./app/i18n/datatable.pt_BR.json'))
         .withOption('bFilter', false)
         .withOption('bLengthChange', false)
         .withOption('ordering', false)

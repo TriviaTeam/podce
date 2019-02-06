@@ -1,12 +1,40 @@
-<div class="aside-inner">
-    <nav sidebar="" sidebar-anyclick-close="" ng-class="{'show-scrollbar': app.layout.asideScrollbar}" class="sidebar">
-        <ul class="nav">
-            <li class="nav-heading divider-bottom">
-                <div style="white-space: normal;">
-                    <p>Sidebar</p>
-                </div>
-            </li>
-           <!-- <li ng-if="hasChild(item.submenu)" ng-class="getMenuItemPropClasses(item)" ng-repeat="item in menuItems" ng-init="pIndex = $index" ng-include="'sidebar-renderer.html'" ng-click="toggleCollapse(pIndex, true)"></li>-->
-        </ul>
-    </nav>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <span data-feather="home"></span>
+                            Menu 1 <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="file"></span>
+                            Menu 2
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="shopping-cart"></span>
+                            Menu 3
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="bar-chart-2"></span>
+                            Menu 4
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="layers"></span>
+                            Menu 5
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </div>

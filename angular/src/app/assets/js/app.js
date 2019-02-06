@@ -1,5 +1,4 @@
 'use strict';
-import MenuJson from '../../../server/sidebar-menu';
 /*!
  *
  * Angle - Bootstrap Admin App + AngularJS

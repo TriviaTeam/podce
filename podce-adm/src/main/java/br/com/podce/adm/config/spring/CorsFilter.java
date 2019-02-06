@@ -1,4 +1,4 @@
-package br.com.podce.adm.spring;
+package br.com.podce.adm.config.spring;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

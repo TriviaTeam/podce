@@ -10,7 +10,7 @@ import java.util.Objects;
  *
  */
 @Entity
-@Table(name = "usuario")
+@Table(name = "usuario", schema = "podce")
 public class Usuario implements Serializable{
 
 	private static final long serialVersionUID = -4104168036322050909L;
@@ -21,6 +21,9 @@ public class Usuario implements Serializable{
 	@SequenceGenerator(name = "sq_id", sequenceName = "sq_id", allocationSize = 1)
 	private Integer id;
 
+	@Column(name = "nome_usuario", length = 255)
+	private String nomeUsuario;
+
 	public Integer getId() {
 		return id;
 	}
@@ -29,7 +32,15 @@ public class Usuario implements Serializable{
 		this.id = id;
 	}
 
-	@Override
+    public String getNomeUsuario() {
+        return nomeUsuario;
+    }
+
+    public void setNomeUsuario(String nomeUsuario) {
+        this.nomeUsuario = nomeUsuario;
+    }
+
+    @Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (o == null || getClass() != o.getClass()) return false;

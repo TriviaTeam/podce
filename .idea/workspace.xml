@@ -2,88 +2,219 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f69f207-1630-4cd6-9a6e-fa1b72cbe4cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angular/src/app/assets/layout/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/i18n/datatable.pt_BR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/i18n/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/i18n/es_AR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/i18n/pt_BR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/modules/home/controllers/HomeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/modules/home/home.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/modules/home/home.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/modules/home/home.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/modules/home/views/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/src/app/modules/usuario/controllers/UsuarioController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/38087986-ab1d-4ddb-a9f5-3cad0056e87c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/38087986-ab1d-4ddb-a9f5-3cad0056e87c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/38087986-ab1d-4ddb-a9f5-3cad0056e87c/storage_v2/_src_/database/gemeos.WoOFtQ/schema/gemeos.WoOFtQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/38087986-ab1d-4ddb-a9f5-3cad0056e87c/storage_v2/_src_/database/gemeos.WoOFtQ/schema/gemeos.WoOFtQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/38087986-ab1d-4ddb-a9f5-3cad0056e87c/storage_v2/_src_/database/postgres.edMnLQ/schema/podce.Z0FeBg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/38087986-ab1d-4ddb-a9f5-3cad0056e87c/storage_v2/_src_/database/postgres.edMnLQ/schema/podce.Z0FeBg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/src/app/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/layout/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/layout/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/src/app/assets/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/layout/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/src/app/assets/layout/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/layout/sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/app.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/preloader.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/app/preloader.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/animate.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/bootstrap-reset.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/borders.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/button-extra.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/calendar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/chart-easypie.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/chart-flot.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/circles.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/code-editor.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/datatable.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/datepicker.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/docs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/dropdown-extra.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/form-elements.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/form-imgcrop.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/form-tags.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/form-validation.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/form-wizard.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/gmap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/half-float.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/layout-animation.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/layout-extra.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/layout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/loading-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/mailbox.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/masonry-grid-deck.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/masonry-grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/media-queries.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/nestable.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/ngdialog.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/ngwig.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/notify.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/offsidebar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/placeholder.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/plugins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/portlets.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/preloader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/progress-extra.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/radial-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/row-extra.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/settings.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/sidebar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/slim-scroll.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/spacing.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/spinner.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/table-angulargrid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/table-extras.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/table-grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/table-ng-grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/table-ngtable.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/table-uigrid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/timeline.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/todo.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/top-navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/typeahead.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/typo.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/uiselect.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/user-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/utils.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/vector-map.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/app/widget.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/glyphicons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/input-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/jumbotron.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/reset-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/normalize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/responsive-embed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/wells.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/alerts.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/alerts.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/background-variant.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/background-variant.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/border-radius.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/border-radius.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/buttons.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/buttons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/center-block.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/center-block.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/clearfix.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/clearfix.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/forms.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/forms.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/gradients.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/gradients.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/grid-framework.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/grid-framework.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/grid.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/grid.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/hide-text.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/hide-text.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/image.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/image.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/labels.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/labels.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/list-group.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/list-group.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/nav-divider.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/nav-divider.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/nav-vertical-align.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/nav-vertical-align.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/opacity.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/opacity.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/pagination.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/pagination.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/panels.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/panels.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/progress-bar.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/progress-bar.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/reset-filter.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/reset-filter.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/resize.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/resize.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/responsive-visibility.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/responsive-visibility.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/size.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/size.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/tab-focus.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/tab-focus.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/table-row.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/table-row.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/text-emphasis.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/text-emphasis.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/text-overflow.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/text-overflow.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/mixins/vendor-prefixes.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/vendor-prefixes.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/bootstrap/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme-custom.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-assinatura-planejamento-contratacao.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-box-typical.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-breadcrumb.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-btns.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-cards.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-content.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-datatables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-estrutura.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-footer.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-forms.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-grid-m-p.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-header.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-modals.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-modelo-documento.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-nav.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-planejamento-contratacao.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-tab.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-treeview.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-type.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/configs/ng-idle.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/configs/ng-idle.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/modules/usuario/controllers/UsuarioVisualizarController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/modules/usuario/views/usuario.visualizar.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/modules/usuario/views/usuario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/src/app/services/usuarios.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/services/usuarios.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/themes/theme-a.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/themes/theme-b.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/themes/theme-c.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/themes/theme-d.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/themes/theme-e.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/themes/theme-f.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/themes/theme-g.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/themes/theme-h.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/assets/less/vendor.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/configs/moment-picker.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/app/configs/moment-picker.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/configs/translate.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/i18n/datatable.pt_BR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/i18n/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/i18n/es_AR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/app/i18n/pt_BR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/src/index.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/index.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/angular/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/adm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/adm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/CorsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/EmailEnviador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/PersistenceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-adm/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-adm/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-db-migration/podce-db-migration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-db-migration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/podce-pom-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/podce-pom-parent/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/podce-jpa/target/" />
     <ignored path="$PROJECT_DIR$/podce-adm/target/" />
@@ -138,6 +269,23 @@
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="podce: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="podce: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="usuario: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
     </expand>
@@ -145,85 +293,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/core/Module.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/core/Router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/index.template.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.plugins.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.rules.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/app/preloader.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.version.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@log.path@</find>
-      <find>podce</find>
-      <find>ComponentScan</find>
-      <find>EnableJpaRepositories</find>
-      <find>org.springframework.security</find>
-      <find>oauth</find>
-      <find>vinicius</find>
       <find>angular</find>
       <find>gemeos-angular</find>
       <find>has-a</find>
@@ -247,6 +329,13 @@
       <find>gemeos</find>
       <find>@author</find>
       <find>usuario</find>
+      <find>spring-boot-starter-mail</find>
+      <find>@</find>
+      <find>EnableWebMvc</find>
+      <find>Processando</find>
+      <find>routes</find>
+      <find>index.te</find>
+      <find>favicon</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -258,57 +347,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/domain/SimNaoEnum.java" />
-        <option value="$PROJECT_DIR$/podce-lib/pom.xml" />
-        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/suporte/SimpleJpaRepositoryCuston.java" />
-        <option value="$PROJECT_DIR$/angular/package-lock.json" />
-        <option value="$PROJECT_DIR$/angular/package.json" />
         <option value="$PROJECT_DIR$/angular/version.json" />
         <option value="$PROJECT_DIR$/angular/.env.development" />
-        <option value="$PROJECT_DIR$/angular/.env" />
         <option value="$PROJECT_DIR$/angular/webpack/production.js" />
         <option value="$PROJECT_DIR$/angular/webpack/development.js" />
-        <option value="$PROJECT_DIR$/angular/src/bootstrap.js" />
         <option value="$PROJECT_DIR$/angular/src/app/assets/layout/top-navbar.html" />
         <option value="$PROJECT_DIR$/angular/webpack/config/webpack.plugins.js" />
         <option value="$PROJECT_DIR$/angular/src/app/modules/usuario/views/usuario.visualizar.html" />
-        <option value="$PROJECT_DIR$/angular/src/main.js" />
         <option value="$PROJECT_DIR$/podce-lib/src/main/java/br/com/podce/constants/Constantes.java" />
         <option value="$PROJECT_DIR$/podce-lib/src/main/java/br/com/podce/util/DataUtils.java" />
-        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/UsuarioRepository.java" />
         <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/UsuarioRepositoryCustom.java" />
-        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/model/Usuario.java" />
         <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/UsuarioRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/podce-db-migration/pom.xml" />
         <option value="$PROJECT_DIR$/discovery/src/main/java/br/com/podce/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/podce-adm/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/podce-pom-parent/pom.xml" />
         <option value="$PROJECT_DIR$/discovery/pom.xml" />
-        <option value="$PROJECT_DIR$/podce-adm/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/discovery/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/podce-adm/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme-custom.less" />
-        <option value="$PROJECT_DIR$/angular/src/app/assets/less/app.less" />
         <option value="$PROJECT_DIR$/angular/src/app/assets/layout/footer.html" />
         <option value="$PROJECT_DIR$/angular/src/app/services/usuarios.service.js" />
         <option value="$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.module.js" />
         <option value="$PROJECT_DIR$/angular/src/app/modules/usuario/controllers/UsuarioVisualizarController.js" />
-        <option value="$PROJECT_DIR$/angular/src/app/assets/less/custom.css" />
         <option value="$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.routes.js" />
         <option value="$PROJECT_DIR$/angular/src/app/modules/home/controllers/HomeController.js" />
         <option value="$PROJECT_DIR$/angular/src/app/modules/home/controllers/home.controller.js" />
-        <option value="$PROJECT_DIR$/angular/src/index.template.html" />
         <option value="$PROJECT_DIR$/angular/src/app/modules/home/home.routes.js" />
         <option value="$PROJECT_DIR$/angular/src/app.js" />
-        <option value="$PROJECT_DIR$/angular/src/app/assets/layout/sidebar.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/assets/layout/header.html" />
         <option value="$PROJECT_DIR$/angular/src/app/assets/layout/app.html" />
         <option value="$PROJECT_DIR$/angular/src/app/modules/home/views/dashboard.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/assets/js/app.js" />
         <option value="$PROJECT_DIR$/angular/src/app/modules/usuario/views/usuario.html" />
         <option value="$PROJECT_DIR$/angular/src/app/configs/ng-idle.config.js" />
         <option value="$PROJECT_DIR$/angular/src/app/assets/less/app/preloader.less" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/CorsFilter.java" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/UsuarioRepository.java" />
+        <option value="$PROJECT_DIR$/angular/.env" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/model/Usuario.java" />
+        <option value="$PROJECT_DIR$/podce-adm/pom.xml" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/EmailEnviador.java" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/MailSender.java" />
+        <option value="$PROJECT_DIR$/podce-pom-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/angular/src/app/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/angular/src/app/configs/moment-picker.config.js" />
+        <option value="$PROJECT_DIR$/angular/src/bootstrap.js" />
+        <option value="$PROJECT_DIR$/angular/src/index.template.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/assets/less/custom.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/assets/less/app.less" />
+        <option value="$PROJECT_DIR$/angular/src/app/assets/layout/header.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/assets/layout/sidebar.html" />
+        <option value="$PROJECT_DIR$/angular/src/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -324,11 +413,17 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="130" />
-    <option name="y" value="57" />
-    <option name="width" value="1010" />
-    <option name="height" value="734" />
+    <option name="x" value="1365" />
+    <option name="y" value="25" />
+    <option name="width" value="1368" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -336,7 +431,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,46 +460,26 @@
               <item name="podce" type="b2602c69:ProjectViewProjectNode" />
               <item name="podce" type="462c0819:PsiDirectoryNode" />
               <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="podce" type="b2602c69:ProjectViewProjectNode" />
               <item name="podce" type="462c0819:PsiDirectoryNode" />
               <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="podce" type="b2602c69:ProjectViewProjectNode" />
               <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="podce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="podce" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="podce-pom-parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,6 +524,7 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.19675925" />
   </component>
   <component name="RunManager" selected="Spring Boot.AdmApplication">
     <configuration name="AdmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -483,12 +558,15 @@
       <workItem from="1549056187286" duration="51000" />
       <workItem from="1549066865976" duration="2831000" />
       <workItem from="1549069732733" duration="3258000" />
-      <workItem from="1549086713961" duration="4194000" />
+      <workItem from="1549086713961" duration="4372000" />
+      <workItem from="1549124104623" duration="1406000" />
+      <workItem from="1549228027764" duration="715000" />
+      <workItem from="1549491637072" duration="3863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17188000" />
+    <option name="totallyTimeSpent" value="23350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,17 +578,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <frame x="1365" y="25" width="1368" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31117824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20921451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.17197452" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924472" weight="0.23726115" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.36305732" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924472" weight="0.5875796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36305732" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -519,17 +598,17 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924472" weight="0.20382166" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924472" weight="0.37420383" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007553" side_tool="true" weight="0.32961783" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32961783" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49924472" weight="0.42515925" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49924472" weight="0.21974522" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.3308157" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32930514" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
@@ -543,118 +622,36 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/angular/src/app.js</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme/theme-modelo-documento.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/gemeos/theme-custom.less">
+    <entry file="file://$PROJECT_DIR$/angular/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/bootstrap/dropdowns.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/variables.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/podce/bootstrap/mixins/alerts.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/app.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/vendor.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/i18n/datatable.pt_BR.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/i18n/en.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/configs/blockUI.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#541#547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/configs/moment-picker.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/configs/restangular.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/configs/translate.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/services/usuarios.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#15#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/usuario/controllers/UsuarioController.js">
+    <entry file="file://$PROJECT_DIR$/angular/.env.development">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <caret line="3" column="13" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/angular/webpack/development.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.version.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.routes.js">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/home/home.routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="60">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="41" />
           <folding>
             <element signature="e#15#57#0" expanded="true" />
           </folding>
@@ -662,66 +659,149 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/modules/home/controllers/HomeController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/services/usuarios.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/home/controllers/home.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/usuario/usuario.routes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/home/views/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/modules/home/home.bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/modules/home/home.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="e#15#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/home/home.routes.js">
+    <entry file="file://$PROJECT_DIR$/angular/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app.js">
+    <entry file="file://$PROJECT_DIR$/discovery/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="213">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/PersistenceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/AdmApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/model/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
-            <element signature="e#15#44#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/layout/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/jpa/domain/SimNaoEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/layout/header.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="83">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/layout/footer.html">
+    <entry file="file://$PROJECT_DIR$/podce-pom-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="635">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="19" column="82" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="19" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.0.8.RELEASE/spring-context-support-5.0.8.RELEASE-sources.jar!/org/springframework/mail/javamail/JavaMailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/config/spring/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -732,47 +812,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/home/views/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="97" selection-start-line="5" selection-start-column="97" selection-end-line="5" selection-end-column="97" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/server/sidebar-menu.json">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/layout/footer.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/modules/usuario/views/usuario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/configs/ng-idle.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/podce-adm/src/main/java/br/com/podce/adm/repository/suporte/QueryByExamplePredicateBuilderCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="185" column="7" selection-start-line="185" selection-start-column="7" selection-end-line="185" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="719" lean-forward="true" selection-start-line="719" selection-end-line="719" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/assets/js/vendor/modernizr/modernizr.custom.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -783,60 +824,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/themes/theme-a.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/core/App.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/core/AuthInterceptor.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/core/Module.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/core/Router.js">
+    <entry file="file://$PROJECT_DIR$/angular/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13" />
+        <state relative-caret-position="-142">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/i18n/es_AR.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/i18n/pt_BR.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/i18n/datatable.pt_BR.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/configs/translate.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/configs/ng-idle.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/configs/moment-picker.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/configs/blockUI.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#541#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="252" column="61" lean-forward="true" selection-start-line="252" selection-start-column="61" selection-end-line="252" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/app.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/layout/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/layout/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#15#44#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/main.js">
+    <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.rules.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="117">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/index.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.plugins.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.version.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/webpack/config/webpack.rules.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/assets/less/app/preloader.less">
+    <entry file="file://$PROJECT_DIR$/angular/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -856,5 +980,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$/podce-pom-parent" />
+    <option value="clean install -U" />
   </component>
 </project>

@@ -7,8 +7,6 @@ function momentPickerConfig(momentPickerProvider) {
         minView:       'decade',
         maxView:       'minute',
         startView:     'year',
-        // autoclose:     true,
-        // today:         true
     });
 }
 
