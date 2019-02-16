@@ -11,7 +11,6 @@ import './app/configs/blockUI.config';
 import './app/configs/moment-picker.config';
 import './app/assets/js/app'
 import './app/assets/layout/footer.html'
-import './app/assets/layout/sidebar.html'
 import './app/assets/layout/header.html'
 import './app/assets/less/app.less';
 
