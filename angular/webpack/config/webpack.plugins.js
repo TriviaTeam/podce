@@ -28,7 +28,9 @@ plugins.push(new webpack.ProvidePlugin({
     $: "jquery",
     jQuery: "jquery","window.jQuery": "jquery",_: "lodash",
     moment: 'moment',
-    html2canvas : 'html2canvas'
+    html2canvas : 'html2canvas',
+    L: 'leaflet',
+    swal : 'sweetalert2'
 }));
 
 plugins.push(

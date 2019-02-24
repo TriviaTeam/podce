@@ -27,8 +27,6 @@ config.entry = {
         'angular-moment-picker',
         'angular-i18n/angular-locale_pt-br.js',
         'angular-input-masks',
-        'sweetalert',
-        'angular-sweetalert',
         'angular-translate',
         'ng-idle',
         'ng-fx',
@@ -39,7 +37,9 @@ config.entry = {
         'ng-file-upload',
         'angular-file-saver',
         'html2canvas',
-        'angular-toggle-switch'
+        'angular-toggle-switch',
+        'sweetalert2',
+        'leaflet'
     ]
 };
 

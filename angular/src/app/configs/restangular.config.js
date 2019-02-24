@@ -16,7 +16,7 @@ function restangularConfig($httpProvider, RestangularProvider) {
     });
 }
 
-function RestangularRun(Restangular, $cookies, $state, $rootScope, SweetAlert) {
+function RestangularRun(Restangular, $cookies, $state, $rootScope) {
     Restangular.addFullRequestInterceptor(function (element, operation, route, url, headers, params, httpConfig) {
         var access_token = !window.localStorage.getItem('token') ? '' :
                     JSON.parse(window.localStorage.getItem('token')).access_token;
@@ -36,24 +36,12 @@ function RestangularRun(Restangular, $cookies, $state, $rootScope, SweetAlert) {
             if ( response.status == 401 ) {
                 $state.go('login.main');
                 $rootScope.$broadcast('logout');
-                SweetAlert.swal({
-                    title: 'Sua sessão expirou ou você não tem permissão para acessar essa funcionalidade.',
-                    type: "warning",
-                    closeOnConfirm: false
-                });
-            }
-            if ( response.status == -1 ) {
-                SweetAlert.swal({
-                    title: 'Serviço indisponível. Tente novamente mais tarde.',
-                    type: "warning",
-                    closeOnConfirm: false
-                });
             }
         }
     );
 }
 
-RestangularRun.$inject = ['Restangular', '$cookies', '$state', '$rootScope', 'SweetAlert'];
+RestangularRun.$inject = ['Restangular', '$cookies', '$state', '$rootScope'];
 
 restangularConfig.$inject = ['$httpProvider', 'RestangularProvider'];
 

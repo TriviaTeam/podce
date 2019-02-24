@@ -24,7 +24,6 @@ new App(process.env.APP_NAME, [
     'moment-picker',
     'angular-oauth2',
     'ui.utils.masks',
-    'oitozero.ngSweetAlert',
     'ngIdle',
     'ui.router.grant',
     'ui.bootstrap',
