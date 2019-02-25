@@ -1,7 +1,8 @@
 package br.com.podce.adm.service;
 
+import br.com.podce.adm.jpa.model.Servico;
 import br.com.podce.adm.jpa.model.Usuario;
-import br.com.podce.adm.service.suporte.ServiceSuporteImpl;
+import br.com.podce.adm.service.suporte.ServiceSuporte;
 import org.springframework.stereotype.Service;
 
 /**
@@ -10,8 +11,6 @@ import org.springframework.stereotype.Service;
  *
  */
 @Service
-public class UsuarioServiceImpl extends ServiceSuporteImpl<Usuario, Long> implements UsuarioService {
-
-
+public interface ServicoService extends ServiceSuporte<Servico, Long> {
 
 }

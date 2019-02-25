@@ -8,6 +8,11 @@ import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ *
+ * @author Victor Alexsander
+ *
+ */
 @Service
 public abstract class ServiceSuporteImpl<E,K> implements ServiceSuporte<E,K> {
 

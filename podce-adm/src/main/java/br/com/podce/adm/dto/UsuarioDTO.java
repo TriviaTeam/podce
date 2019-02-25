@@ -1,5 +1,10 @@
 package br.com.podce.adm.dto;
 
+/**
+ *
+ * @author Victor Alexsander
+ *
+ */
 public class UsuarioDTO {
 
 	private Long id;

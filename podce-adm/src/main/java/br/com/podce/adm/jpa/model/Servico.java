@@ -1,8 +1,11 @@
 package br.com.podce.adm.jpa.model;
 
+import br.com.podce.adm.dto.ServicoDTO;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -48,6 +51,17 @@ public class Servico implements Serializable{
 	@ManyToMany(cascade = CascadeType.ALL)
 	@JoinTable(name = "servico_anexo",joinColumns={@JoinColumn(name="id_servico")},inverseJoinColumns={ @JoinColumn(name="id_anexo")})
 	private List<Anexo> anexos;
+
+	public Servico(ServicoDTO servicoDTO) {
+		this.titulo = servicoDTO.getTitulo();
+		this.descricao = servicoDTO.getDescricao();
+		this.dataCadastro = servicoDTO.getDataCadastro();
+		this.dataInicio = servicoDTO.getDataInicio();
+		this.dataFim = servicoDTO.getDataFim();
+		this.usuarioCriado = new Usuario();
+		this.listaServicos = new ArrayList<>();
+		this.anexos = new ArrayList<>();
+	}
 
 	public Integer getId() {
 		return id;

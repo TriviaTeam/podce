@@ -4,6 +4,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ *
+ * @author Victor Alexsander
+ *
+ */
 @Service
 public interface ServiceSuporte<E,K> {
 

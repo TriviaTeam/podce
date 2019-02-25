@@ -1,13 +1,16 @@
 package br.com.podce.adm.jpa.model;
 
-import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.util.Objects;
 
+/**
+ *
+ * @author Victor Alexsander
+ *
+ */
 @Embeddable
 public class ServicoOfertaPK implements Serializable {
     private static final long serialVersionUID = 1L;

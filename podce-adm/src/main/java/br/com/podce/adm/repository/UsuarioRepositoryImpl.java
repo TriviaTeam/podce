@@ -6,6 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
+/**
+ *
+ * @author Victor Alexsander
+ *
+ */
 public class UsuarioRepositoryImpl  implements UsuarioRepositoryCustom {
 
     @Autowired

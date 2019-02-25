@@ -4,6 +4,11 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Arrays;
 
+/**
+ *
+ * @author Victor Alexsander
+ *
+ */
 @Entity
 @Table(name = "anexo", schema = "podce")
 public class Anexo implements Serializable {
