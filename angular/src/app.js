@@ -1,9 +1,9 @@
 'use strict';
 
 import App from './core/App';
-
 import UsuarioModule from './app/modules/usuario/usuario.routes';
 import DefaultModule from './app/modules/home/home.routes';
+import ServicoModule from './app/modules/servico/servico.routes';
 
 require('angular-ui-tree/dist/angular-ui-tree.js');
 require('angularjs-slider/dist/rzslider.min');
@@ -36,4 +36,5 @@ new App(process.env.APP_NAME, [
     'toggle-switch',
     UsuarioModule.name,
     DefaultModule.name,
+    ServicoModule.name
 ]);

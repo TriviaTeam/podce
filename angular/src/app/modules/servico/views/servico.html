@@ -1,0 +1,48 @@
+<div class="page-content">
+    <div class="card" style="margin: 10px">
+        <div class="card-header">
+            <h3 class="card-title">DIGA-NOS O QUE PRECISA</h3>
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12 form-group">
+                    <form>
+                        <div class="form-group">
+                            <label>Escolha um nome do Serviço</label>
+                            <input class="form-control" name="nome" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Fale-nos mais sobre seu Serviço</label><br>
+                            <small>Comece com um pouco sobre você e seu negócio e inclua uma visão geral do que você precisa que seja feito.</small>
+                            <textarea class="form-control" name="nome" type="text"></textarea>
+                        </div>
+                        <div class="form-group mb-0" style="padding: 10px;border: dotted 2px #ccc;">
+                            <button type="button" ng-click="vm.adicionarAnexo()" class="btn btn-default" style="border: solid 1px #ccc;"><i class="fa fa-plus"></i> Adicionar arquivos</button>
+                        </div>
+                        <table class="table table-striped border">
+                            <tbody>
+                            <tr ng-repeat="anexo in vm.anexos">
+                                <td><a href="#" ng-click="vm.download">{{anexo.nome}}</a></td>
+                                <td class="col-sm-1"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="form-group">
+                            <label>Quais as habilidades necessárias?</label><br>
+                            <small>Insira até 5 habilidades que melhor descrevam seu projeto.</small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-right">
+            <button type="submit" style="width: 120px;" class="btn btn-primary" ng-click="vm.salvar()">Salvar</button>
+            <button type="reset" class="btn btn-warning" style="width: 120px;" ng-click="vm.voltar()">Voltar</button>
+        </div>
+    </div>
+</div>
+
+
+
+

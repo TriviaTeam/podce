@@ -1,0 +1,30 @@
+<div class="modal-header">
+    <h5 class="modal-title"> <i class="fa fa-gears mr-xs" aria-hidden="true"></i> Arquivos</h5>
+    <button type="button" ngf-select="vm.anexoFactory.upload($files, $invalidFiles, vm)"
+            ngf-accept="'image/*,application/pdf'" ngf-max-height="1000" ngf-max-size="2MB"  class="btn btn-default button-panel" ng-disabled="vm.anexo.length === 1">
+        <i class="fa fa-plus" aria-hidden="true"></i> Adicionar Arquivo
+    </button>
+</div>
+<div class="modal-body">
+    <form invalid-focus role="form" name="vm.anexoForm" id="anexoForm" class="validate-form">
+        <div class="text-blue mt-sm">
+            <p><i class="fa fa-info-circle" aria-hidden="true"></i> Só podem ser anexados arquivos com a seguinte extensões : PDF, JPEG, JPG ou PNG e, com tamanho de até 2MB. O mesmo não aceita o arquivo PNG, menor que 2MB.</p>
+        </div>
+        <div ng-if="vm.msgAnexo" class="text-danger mt-sm">
+            <p><i class="fa fa-info-circle" aria-hidden="true"></i>
+                {{vm.msgAnexo}}</p>
+            </br>
+        </div>
+        <div ng-if="vm.anexo.nome" class="text-success mt-sm">
+            <p><i class="fa fa-info-circle" aria-hidden="true"></i>
+                Arquivo {{vm.anexo.nome}} anexado!</p>
+            </br>
+        </div>
+    </form>
+</div>
+<div class="card-footer text-right">
+    <button ng-click="vm.salvar(vm.anexoForm)" class="btn btn-primary" ng-disabled="!vm.anexo.nome" >
+        Salvar
+    </button>
+    <button type="reset" class="btn btn-warning" ng-click="vm.cancelar()">Cancelar</button>
+</div>
