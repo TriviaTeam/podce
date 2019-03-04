@@ -10,7 +10,7 @@ import java.util.Objects;
  */
 public class AnexoDTO implements Serializable {
 	private static final long serialVersionUID = 1978253229617657146L;
-	private Integer id;
+	private Long id;
 	private String nome;
 	private byte[] data;
 
@@ -18,17 +18,17 @@ public class AnexoDTO implements Serializable {
 		super();
 	}
 
-	public AnexoDTO(Integer id, String nome) {
+	public AnexoDTO(Long id, String nome) {
 		super();
 		this.id = id;
 		this.nome = nome;
 	}
 
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 

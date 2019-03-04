@@ -52,7 +52,7 @@ public class Servico implements Serializable{
 	@JoinTable(name = "servico_anexo",joinColumns={@JoinColumn(name="id_servico")},inverseJoinColumns={ @JoinColumn(name="id_anexo")})
 	private List<Anexo> anexos;
 
-	public Servico(ServicoDTO servicoDTO) {
+	/*public Servico(ServicoDTO servicoDTO) {
 		this.titulo = servicoDTO.getTitulo();
 		this.descricao = servicoDTO.getDescricao();
 		this.dataCadastro = servicoDTO.getDataCadastro();
@@ -61,7 +61,7 @@ public class Servico implements Serializable{
 		this.usuarioCriado = new Usuario();
 		this.listaServicos = new ArrayList<>();
 		this.anexos = new ArrayList<>();
-	}
+	}*/
 
 	public Integer getId() {
 		return id;

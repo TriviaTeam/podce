@@ -1,5 +1,7 @@
 package br.com.podce.adm.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.time.LocalDate;
 import java.util.List;
 
@@ -13,8 +15,11 @@ public class ServicoDTO {
     private Integer id;
     private String titulo;
     private String descricao;
+    @JsonFormat(pattern = "dd/MM/yyyy")
     private LocalDate dataCadastro;
+    @JsonFormat(pattern = "dd/MM/yyyy")
     private LocalDate dataInicio;
+    @JsonFormat(pattern = "dd/MM/yyyy")
     private LocalDate dataFim;
     private UsuarioDTO usuarioCriado;
     private List<TipoServicoDTO> listaServicos;

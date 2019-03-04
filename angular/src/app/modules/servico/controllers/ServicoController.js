@@ -9,6 +9,7 @@ class ServicoController {
         vm.anexos = [];
         vm.anexoFactory = AnexoFactory;
         vm.servico = {};
+        vm.servico.anexos = [];
         vm.servicoService = ServicoService;
     }
 

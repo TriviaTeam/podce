@@ -10,6 +10,6 @@ import org.springframework.stereotype.Service;
  *
  */
 @Service
-public interface UsuarioService extends ServiceSuporte<Usuario, Long> {
+public interface UsuarioService {
 
 }
